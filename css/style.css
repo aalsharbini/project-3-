@@ -1,0 +1,262 @@
+/*code for all pages*/
+header {
+	background-image: radial-gradient(#fff, #ffd6d6);
+	padding: 6% 20% 6% 6%;
+	margin-left: 0px !important;
+	margin-bottom: 2em;
+	border-bottom: 1px solid #ff523b;
+}
+
+h1 {
+	font-family: "Merriweather", serif;
+	font-weight: 900;
+	font-size: 4em;
+	color: #ff523b;
+}
+
+nav#mainnav li {
+	float: left;
+	width: 24.5%;
+	margin: 0.5% 0.25% 0.5% 0.25%;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Merriweather", serif;
+	font-weight: 900;
+	font-size: 2em;
+	color: #ff523b;
+}
+
+#resume,
+#education,
+#biography,
+#travel-goals,
+#professional-goals {
+	padding: 1% 20% 1% 20%;
+}
+
+.resume {
+	padding: 1% 20% 1% 20%;
+}
+
+nav#mainnav ul li a {
+	text-decoration: none;
+	color: #333;
+	padding: 1em;
+	display: block;
+	background-color: #ffd6d6;
+	border: 1px solid #ffd6d6;
+}
+
+nav#mainnav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-family: "Merriweather", serif;
+	font-weight: 900;
+	background-color: white;
+}
+
+nav#mainnav ul li a:hover {
+	background-color: #ff523b;
+	border: 1px solid #ff523b;
+	color: #fff;
+}
+
+h3 {
+	font-family: "Merriweather", serif;
+	font-weight: 900;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+p {
+	font-family: "Merriweather", serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	margin-bottom: 1em;
+}
+
+ul {
+	font-family: "Merriweather", serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	margin-bottom: 2em;
+}
+
+ol {
+	font-family: "Merriweather", serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	margin-bottom: 2em;
+}
+
+@media (max-width: 768px) {
+	header {
+		background-image: radial-gradient(#fff, #ffd6d6);
+		padding: 2% 6% 2% 6%;
+		margin-left: 0px !important;
+		margin-bottom: 4%;
+		margin-top: 0.25%;
+		border-bottom: 1px solid #ff523b;
+	}
+
+	h1 {
+		font-family: "Merriweather", serif;
+		font-weight: 900;
+		font-size: 3em;
+		color: #ff523b;
+	}
+
+	nav#mainnav li {
+		float: left;
+		width: 100%;
+		margin: 0.25%;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: "Merriweather", serif;
+		font-weight: 900;
+		font-size: 1.4em;
+		color: #ff523b;
+	}
+
+	#resume,
+	#education,
+	#biography,
+	#travel-goals,
+	#professional-goals {
+		padding: 2% 6% 2% 6%;
+	}
+
+	nav#mainnav ul li a {
+		text-decoration: none;
+		color: #333;
+		padding: 1em;
+		display: block;
+		background-color: #ffd6d6;
+		border: 1px solid #ffd6d6;
+	}
+}
+
+/*code for resume page only*/
+button#linkedin-link {
+	color: white;
+	text-decoration: none;
+	padding: 1em 1.5em;
+	border-radius: 4em;
+	border: 1px solid #ff523b;
+	font-family: "Merriweather", serif;
+	font-weight: 900;
+	background-color: #ff523b !important;
+	margin: 3% 0% 0% 0%;
+}
+
+button#linkedin-link:hover {
+	border: 1px solid #563434;
+	background-color: #563434 !important;
+	color: white;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	button#linkedin-link {
+		margin: 6% 0% 10% 0%;
+	}
+}
+
+/*code for pubg-information page only*/
+#pubg-photos {
+	background-color: lavender;
+	padding: 5% 0% 10% 0%;
+	border-top: 1px solid #ff523b;
+	margin-top: 0%;
+}
+
+#pubg-photos h2 {
+	padding: 0% 5%;
+}
+
+.pubg-pic {
+	width: 26%;
+	object-fit: cover;
+	margin: 1%;
+	border-radius: 2em;
+	padding: 1em;
+}
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pubg-information {
+	width: 90%;
+	margin: auto;
+}
+
+.pubg-information video {
+	width: 100%;
+	margin: 1.5em auto;
+}
+
+@media (max-width: 768px) {
+	.pubg-pic {
+		width: 90%;
+		object-fit: cover;
+		border-radius: 12px;
+	}
+
+	.box {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#cat-photos h2 {
+		padding: 2%;
+	}
+
+	#photo-text {
+		padding: 2% 6% 2% 6%;
+		margin-bottom: 6em;
+	}
+}
+
+/*code for map page*/
+#map-information {
+	text-align: center;
+	padding: 2em 0em 2em 0em;
+}
+
+#map {
+	height: 100vh;
+	width: 100%;
+	border-top: 1px solid indigo;
+}
+
+.map-link a {
+	background-color: #ffd6d6 !important;
+	color: #333 !important;
+	border: #ffd6d6 !important;
+}
+
+.map-link a:hover {
+	border: 1px solid #ff523b !important;
+	background-color: #ff523b !important;
+	color: #fff !important;
+}
+
+@media (max-width: 768px) {
+	#map {
+		width: 80%;
+		margin: auto;
+	}
+}

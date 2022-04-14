@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>All About Ala</title>
+</head>
+
+<body>
+  <nav id="navigation">
+    <ul>
+      <li><a href="index.html">All About Ala</a></li>
+      <li><a href="resume.html">Ala's Resume</a></li>
+      <li><a href="reviews.html">Ala's Reviews</a></li>
+    </ul>
+  </nav>
+  <h1>All About Ala</h1>
+  <section>
+    <h2>Interests</h2>
+    <ul>
+      <li>Coding</li>
+      <li>Exploring new technologies</li>
+      <li>Music</li>
+      <li>Movies</li>
+      <li>Video Games</li>
+      <li>Weight Lifting</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Favorites</h2>
+    <ul>
+      <li>Movie: fast and furious all seasons </li>
+      <li>Video Game: PUBG</li>
+      <li>Song: Arabic music </li>
+      <li>Food: Pizza</li>
+      <li>Color: Blue</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>A Brief Biography</h2>
+    <p>>My name is Ala I was born in Jordan in 02/18/1996 , 
+	I been in the United States for 6 years I came to the United States in 01/31/2016 after I graduated from high school.
+	After that when I came to the United States, 
+	I went to moraine valley community college  after that I transferred to the IIT to finish my degree.
+	I am working as a barber to pay my expenses and I been working as a barber to pay my expenses.</p>
+  </section>
+</body>
+
+</html>
